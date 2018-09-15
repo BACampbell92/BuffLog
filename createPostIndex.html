@@ -34,6 +34,60 @@
         </div>
     </header>
 
+    <main>
+        <form action="" id="createIt">
+             Title: <br>
+             <input type="text" name= "Title" value="Title" class="createPostForm" id="title"><br>
+             Author: <br>
+             <input type="text" name="Author" value="Author" class="createPostForm" id="author"><br>
+             Tags: <br>
+             <input type="text" name="Tags" value="Tags" id="tags" class="createPostForm"><br>
+             Date: <br>
+             <input type="text" name="date" value="date" id="date" class="createPostForm">
+             <textarea name="Content" form="userform" id="content" class="createPostForm">Enter Blog Post Content</textarea>
+             <input type="submit" id="submitForm">
+        </form>
+    </main>
+
+
+
+
+
+    <aside>
+        <section class="sidebar lightgray">
+            <h2>Check us out!</h2>
+            <hr>
+            <div class="media">
+                    <a href="https://www.facebook.com/milligancollege/"><i class="fab fa-facebook fa-2x"></i></a>
+                    <a href="https://twitter.com/MilliganCollege?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fab fa-twitter-square fa-2x"></i></a>
+                    <a href="https://www.instagram.com/explore/locations/499260610/milligan-college/?hl=en"><i class="fab fa-instagram fa-2x"></i></a>
+                    <i class="far fa-envelope fa-2x" id="contact"></i>
+            </div>
+        </section>
+    </aside>
+</div>
+
+    <div id="simpleModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <fieldset>
+            <form action="">
+                First Name: <br>
+                <input type="text" name= "firstName" value="First Name" class="formName" id="data"><br>
+                Second Name: <br>
+                <input type="text" name="lastName" value="Last Name" class="formName" id="data"><br>
+                Email: <br>
+                <input type="email" name="email" value="Email" id="data" class="formName"><br>
+                <textarea name="comment" form="userform" id="data" class="formName">Questions? Comments? </textarea>
+                <input type="submit" id="submitForm">
+            </form>
+            </fieldset>
+        </div>
+    </div>
+
+    <script src="JS/contactModal.js"></script>
+    <script src="JS/createPost.js"></script>
+
 
 </body> 
 
