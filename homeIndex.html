@@ -1,0 +1,209 @@
+<!DOCTYPE html> 
+<html>
+
+<head> 
+    <meta charset="utf-8">
+    <link href="homeIndex.html" >
+    <link href="viewPostIndex.html" >
+    <link href="searchPostIndex.html" >
+    <link href="editPostIndex.html" >
+    <link href="createPostIndex.html" >
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="*-default.css"> 
+    <link rel="stylesheet" type="text/css" href="css/homePageStyles.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+  <!--  Messing w/ readmore.js....it didn't work...
+      <script src="/node_modules/readmore-js/readmore.min.js">
+        $(document).ready(function(){
+            var readMoreHtml = $(".read-more").html();
+            var lessText = readMoreHtml.substr(0, 100);
+    
+            if(readMoreHtml.length > 100) {
+                $(".read-more").html(lessText).append("<a href='' class='show-less-link'> Show Less </a>")
+            } else {
+                    $(".read-more").html(readMoreHtml);
+                }
+    
+                $("body").on("click", ".read-more-link", function(event){
+                    event.preventDefault();
+                    $(this).parent(".read-more").html(readMoreHtml).append("<a href='' class='show-less-link'>Show Less</a>")
+                });
+    
+                $("body").on("click", ".show-less-link", function(){
+                    event.preventDefault();
+                    $(this).parent(".read-more").html(readMoreHtml).append("<a href='' class='read-more-link'>Show More</a>")
+                });
+        });
+    </script> -->
+ 
+
+    <Title>BuffLog</Title>
+
+</head>
+
+<body>
+    <header class="lightgray">
+        <h1>Welcome to BuffLog!</h1>
+        <div class="navBar">
+            <ul>
+                <li><a class="active" href="homeIndex.html">Home</a></li>
+                <li><a href="viewPostIndex.html">View Post</a></li>
+                <li><a href="searchPostIndex.html">Search Post</a></li>
+                <li><a href="createPostIndex.html">Create Post</a></li>
+                <li><a href="editPostIndex.html">Edit Post</a></li>
+            </ul>
+        </div>
+    </header>
+
+    
+        <div class="road1image">
+            <p class="image-text">Welcome to <strong><em>BuffLog</em></strong>, your road to all things Milligan</p>
+        </div>
+        
+        <div class="wrapper">
+            <main>
+                <article class="lightgray">
+                    <header>
+                        <h2>Essentials Eshmentials</h2>
+                        <ul>
+                            <li>Creator: <em>John Doe</em></li>
+                            <li>Tags: <em>Blog, HTML, CSS, Javascript</em></li>
+                            <li>Date: <em>09/08/2018</em></li>
+                        </ul>
+                    </header>
+
+                    <section class="content">
+                        <img src="images/code.jpg" alt="code">
+                        <p class="read-more">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis tincidunt urna. Integer euismod neque ut dolor vestibulum, non bibendum magna suscipit. Aenean elementum turpis a enim tincidunt pretium sit amet feugiat tellus. Morbi vitae orci a metus feugiat commodo. Duis justo nulla, lacinia ut nulla in, tempus facilisis ex. Proin nec odio efficitur, elementum ipsum eget, tempus eros. Aenean quis porttitor metus, nec tristique dui. Integer in nisi non nisl tempor elementum. Sed id tortor commodo nulla tempus mollis. Integer pulvinar aliquam ipsum, a pellentesque tellus finibus at. Phasellus vitae ex facilisis, cursus erat vel, ultricies erat. Cras vel hendrerit quam. Praesent convallis sem nec lacus auctor consequat.
+
+                                Nullam non risus mauris. Mauris eu varius magna. Etiam porttitor ex nec nisi imperdiet imperdiet. Morbi vitae aliquam mi, id semper dui. Nullam a tortor metus. Donec ut orci id nisi aliquet dignissim sit amet ac sem. Aliquam pellentesque imperdiet risus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam faucibus id risus vel convallis.
+                                
+                                Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus facilisis tellus a ipsum efficitur, eu volutpat est iaculis. In non mauris mauris. Pellentesque sed nisl turpis. Donec quis tincidunt nulla. Duis cursus urna interdum nunc fringilla eleifend. Nam semper fringilla vestibulum. Quisque vestibulum rhoncus tincidunt. Nullam cursus nulla ornare erat ultrices interdum. In varius, velit vitae lacinia pulvinar, erat metus cursus orci, eget placerat ipsum ante eu massa.
+                        </p>
+                        <button id="essentials" class="read-more-link">More...</button>
+                    </section>
+                </article>
+
+
+                <article class="lightgray">
+                        <header>
+                            <h2>Duallys?</h2>
+                            <ul>
+                                <li>Creator: <em>John Doe</em></li>
+                                <li>Tags: <em>Monitor, setup, dual-monitors</em></li>
+                                <li>Date: <em>09/08/2018</em></li>
+                            </ul>
+                        </header>
+    
+                        <section>
+                            <img src="images/dual.jpg" alt="code">
+                            <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis tincidunt urna. Integer euismod neque ut dolor vestibulum, non bibendum magna suscipit. Aenean elementum turpis a enim tincidunt pretium sit amet feugiat tellus. Morbi vitae orci a metus feugiat commodo. Duis justo nulla, lacinia ut nulla in, tempus facilisis ex. Proin nec odio efficitur, elementum ipsum eget, tempus eros. Aenean quis porttitor metus, nec tristique dui. Integer in nisi non nisl tempor elementum. Sed id tortor commodo nulla tempus mollis. Integer pulvinar aliquam ipsum, a pellentesque tellus finibus at. Phasellus vitae ex facilisis, cursus erat vel, ultricies erat. Cras vel hendrerit quam. Praesent convallis sem nec lacus auctor consequat.
+    
+                                    Nullam non risus mauris. Mauris eu varius magna. Etiam porttitor ex nec nisi imperdiet imperdiet. Morbi vitae aliquam mi, id semper dui. Nullam a tortor metus. Donec ut orci id nisi aliquet dignissim sit amet ac sem. Aliquam pellentesque imperdiet risus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam faucibus id risus vel convallis.
+                                    
+                                    Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus facilisis tellus a ipsum efficitur, eu volutpat est iaculis. In non mauris mauris. Pellentesque sed nisl turpis. Donec quis tincidunt nulla. Duis cursus urna interdum nunc fringilla eleifend. Nam semper fringilla vestibulum. Quisque vestibulum rhoncus tincidunt. Nullam cursus nulla ornare erat ultrices interdum. In varius, velit vitae lacinia pulvinar, erat metus cursus orci, eget placerat ipsum ante eu massa.
+                            </p>
+                            <button id="dual" class="read-more-link">More...</button>
+                        </section>
+                    </article>
+
+
+                    <article class="lightgray">
+                            <header>
+                                <h2>Workflow Frenzy!</h2>
+                                <ul>
+                                    <li>Creator: <em>John Doe</em></li>
+                                    <li>Tags: <em>Workflow, routine, project</em></li>
+                                    <li>Date: <em>09/09/2018</em></li>
+                                </ul>
+                            </header>
+        
+                            <section>
+                                <img src="images/workflow.png" alt="code">
+                                <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis tincidunt urna. Integer euismod neque ut dolor vestibulum, non bibendum magna suscipit. Aenean elementum turpis a enim tincidunt pretium sit amet feugiat tellus. Morbi vitae orci a metus feugiat commodo. Duis justo nulla, lacinia ut nulla in, tempus facilisis ex. Proin nec odio efficitur, elementum ipsum eget, tempus eros. Aenean quis porttitor metus, nec tristique dui. Integer in nisi non nisl tempor elementum. Sed id tortor commodo nulla tempus mollis. Integer pulvinar aliquam ipsum, a pellentesque tellus finibus at. Phasellus vitae ex facilisis, cursus erat vel, ultricies erat. Cras vel hendrerit quam. Praesent convallis sem nec lacus auctor consequat.
+        
+                                        Nullam non risus mauris. Mauris eu varius magna. Etiam porttitor ex nec nisi imperdiet imperdiet. Morbi vitae aliquam mi, id semper dui. Nullam a tortor metus. Donec ut orci id nisi aliquet dignissim sit amet ac sem. Aliquam pellentesque imperdiet risus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam faucibus id risus vel convallis.
+                                        
+                                        Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus facilisis tellus a ipsum efficitur, eu volutpat est iaculis. In non mauris mauris. Pellentesque sed nisl turpis. Donec quis tincidunt nulla. Duis cursus urna interdum nunc fringilla eleifend. Nam semper fringilla vestibulum. Quisque vestibulum rhoncus tincidunt. Nullam cursus nulla ornare erat ultrices interdum. In varius, velit vitae lacinia pulvinar, erat metus cursus orci, eget placerat ipsum ante eu massa.
+                                </p>
+                                <button id="workflow" class="read-more-link">More...</button>
+                            </section>
+                        </article>
+
+
+                        <article class="lightgray">
+                                <header>
+                                    <h2>Security Suckerpunch!</h2>
+                                    <ul>
+                                        <li>Creator: <em>John Doe</em></li>
+                                        <li>Tags: <em>Network, security, cyber</em></li>
+                                        <li>Date: <em>09/10/2018</em></li>
+                                    </ul>
+                                </header>
+            
+                                <section>
+                                    <img src="images/cyber.jpg" alt="code">
+                                    <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis tincidunt urna. Integer euismod neque ut dolor vestibulum, non bibendum magna suscipit. Aenean elementum turpis a enim tincidunt pretium sit amet feugiat tellus. Morbi vitae orci a metus feugiat commodo. Duis justo nulla, lacinia ut nulla in, tempus facilisis ex. Proin nec odio efficitur, elementum ipsum eget, tempus eros. Aenean quis porttitor metus, nec tristique dui. Integer in nisi non nisl tempor elementum. Sed id tortor commodo nulla tempus mollis. Integer pulvinar aliquam ipsum, a pellentesque tellus finibus at. Phasellus vitae ex facilisis, cursus erat vel, ultricies erat. Cras vel hendrerit quam. Praesent convallis sem nec lacus auctor consequat.
+            
+                                            Nullam non risus mauris. Mauris eu varius magna. Etiam porttitor ex nec nisi imperdiet imperdiet. Morbi vitae aliquam mi, id semper dui. Nullam a tortor metus. Donec ut orci id nisi aliquet dignissim sit amet ac sem. Aliquam pellentesque imperdiet risus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam faucibus id risus vel convallis.
+                                            
+                                            Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus facilisis tellus a ipsum efficitur, eu volutpat est iaculis. In non mauris mauris. Pellentesque sed nisl turpis. Donec quis tincidunt nulla. Duis cursus urna interdum nunc fringilla eleifend. Nam semper fringilla vestibulum. Quisque vestibulum rhoncus tincidunt. Nullam cursus nulla ornare erat ultrices interdum. In varius, velit vitae lacinia pulvinar, erat metus cursus orci, eget placerat ipsum ante eu massa.
+                                    </p>
+                                    <button id="security" class="read-more-link">More...</button>
+                                </section>
+                            </article>
+            </main>
+
+            <aside>
+                <section class="sidebar lightgray">
+                    <h2>Check us out!</h2>
+                    <hr>
+                    <div class="media">
+                            <a href="https://www.facebook.com/milligancollege/"><i class="fab fa-facebook fa-2x"></i></a>
+                            <a href="https://twitter.com/MilliganCollege?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fab fa-twitter-square fa-2x"></i></a>
+                            <a href="https://www.instagram.com/explore/locations/499260610/milligan-college/?hl=en"><i class="fab fa-instagram fa-2x"></i></a>
+                            <i class="far fa-envelope fa-2x" id="contact"></i>
+                    </div>
+                </section>
+            </aside>
+        </div>
+
+
+        <div id="simpleModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <fieldset>
+                <form action="">
+                    First Name: <br>
+                    <input type="text" name= "firstName" value="First Name" class="formName" id="data"><br>
+                    Second Name: <br>
+                    <input type="text" name="lastName" value="Last Name" class="formName" id="data"><br>
+                    Email: <br>
+                    <input type="email" name="email" value="Email" id="data" class="formName"><br>
+                    <textarea name="comment" form="userform" id="data" class="formName">Questions? Comments? </textarea>
+                    <input type="submit" id="submitForm">
+                </form>
+                </fieldset>
+            </div>
+        </div>
+  
+    <footer>
+
+    </footer>
+
+    <script src="JS/contactModal.js"></script>
+    <script src="JS/viewPostModal.js"></script>
+</body> 
+
+
+
+
+
+</html>
